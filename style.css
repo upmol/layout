@@ -1,0 +1,38 @@
+body{
+    background-color: #D5E1EF;
+}
+
+.qr-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.qr-box{
+    background-color: #fff;
+    max-width: 320px;
+    max-height: 499px;
+    border-radius: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.qr-code-img{
+    width: 288px;
+    height: 288px;
+    border-radius: 20px;
+    padding: 16px;
+}
+
+.txt-qr{
+    max-width: 288;
+    padding: 16px;
+}
+
+h1{
+    font-size: 1.5em;
+}
